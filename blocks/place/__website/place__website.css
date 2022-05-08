@@ -1,0 +1,50 @@
+.place__website {
+    max-width: 456px;
+    width: 100%;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #aaaaaa;
+    padding: 0 25px 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        max-width: 430px;
+        padding-left: 32px;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .place__website {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 883px) {
+    .place__website {
+        padding-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        padding-left: 28px;
+    }
+}
+
+@media screen and (max-width: 695px){
+    .place__website {
+        max-width: 380px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .place__website{
+        display: none;
+    }
+ }

@@ -1,0 +1,24 @@
+.cover__link {
+    max-width: 1184px;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__link {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        max-width: 320px;
+    }   
+}

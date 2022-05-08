@@ -1,0 +1,27 @@
+.cover-trains__subtitle {
+    max-width: 360px;
+    width: 100%;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 420px) {
+    .cover-trains__subtitle {
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover-trains__subtitle {
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+    }   
+}

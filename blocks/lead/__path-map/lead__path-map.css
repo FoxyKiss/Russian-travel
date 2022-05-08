@@ -1,0 +1,35 @@
+.lead__path-map {
+    display: block;
+    max-width: 937px;
+    width: 100%;
+    min-height: 262px;
+    object-fit: contain;
+    margin: 90px auto 261px auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__path-map {
+        max-width: 883px;
+        min-height: 248px;
+        margin-top: 85px;
+        margin-bottom: 246px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__path-map {
+        max-width: 732px;
+        min-height: 205px;
+        margin-top: 70px;
+        margin-bottom: 204px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__path-map {
+        max-width: 304px;
+        min-height: 85px;
+        margin-top: 29px;
+        margin-bottom: 93px;
+    }   
+}

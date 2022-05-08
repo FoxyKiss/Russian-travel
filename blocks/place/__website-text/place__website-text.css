@@ -1,0 +1,9 @@
+.place__website-text {
+    margin: 0 0 12px 0;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.place__website-text:nth-of-type(2) {
+    margin: 0;
+}

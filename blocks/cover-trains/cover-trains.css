@@ -1,0 +1,55 @@
+/*Я знаю про то что нежелательно задавать фиксированную высоту для блока с тем или иным контентом но данному блоку нужна минимальная высота поскольку изображение 
+в нём это Background и он не работает без min height , я считаю что блок всегда будет на минимально высоты и будет растягиваться если контента в нём станет больше/*/
+.cover-trains {
+    max-width: 1184px;
+    width: 100%;
+    min-height: 740px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../../images/cover-trains.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.cover-trains::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+    transition: 0.4s;
+}
+
+.cover-trains:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover-trains {
+        max-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover-trains {
+        max-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover-trains {
+        max-width: 320px;
+        min-height: 200px;
+    }   
+}
